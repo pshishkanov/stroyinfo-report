@@ -21,16 +21,16 @@ public class Main {
 
     private static final boolean debug = false;
 
-//    private static final String PATH_TO_FILE_FROM = "resources/2018q1/from-matherial.xlsx";
-    private static final String PATH_TO_FILE_FROM = "resources/2018q1/from-machinery.xlsx";
+    private static final String PATH_TO_FILE_FROM = "resources/2018q2/from-matherial.xlsx";
+//    private static final String PATH_TO_FILE_FROM = "resources/2018q1/from-machinery.xlsx";
 
-    private static final String PATH_TO_FILE_TO = "resources/2018q1/to.xls";
+    private static final String PATH_TO_FILE_TO = "resources/2018q2/to.xls";
 
-//    private static final Integer OFFSET_FILE_FROM = 3;
-//    private static final String PATTERN = "\\d{3}-\\d{4}";
+    private static final Integer OFFSET_FILE_FROM = 3;
+    private static final String PATTERN = "\\d{3}-\\d{4}";
 
-    private static final Integer OFFSET_FILE_FROM = 2;
-    private static final String PATTERN = "\\d{5,6}";
+//    private static final Integer OFFSET_FILE_FROM = 2;
+//    private static final String PATTERN = "\\d{5,6}";
 
     private static final Integer OFFSET_FILE_TO = 4;
 
